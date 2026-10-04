@@ -16,7 +16,9 @@ Then open <http://127.0.0.1:4173>. Stop the server with Ctrl+C. `npm run dev` is
 
 ## Publish
 
-See [PUBLISHING.md](PUBLISHING.md) for GitHub Pages instructions. The included workflow deploys only `dist/`, not this documentation. The site has not been published or connected to a remote repository yet.
+The website is hosted with GitHub Pages at [lmgyuan.github.io/personamem-website](https://lmgyuan.github.io/personamem-website/). The source repository is [lmgyuan/personamem-website](https://github.com/lmgyuan/personamem-website).
+
+Push changes to `main` to publish an update automatically. See [PUBLISHING.md](PUBLISHING.md) for hosting and custom-domain instructions. The included workflow deploys only `dist/`, not this documentation.
 
 ## What is included
 

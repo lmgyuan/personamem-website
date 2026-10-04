@@ -2,7 +2,15 @@
 
 Yes—GitHub Pages can serve this website. It is static HTML, CSS, and JavaScript, so you do not need a server subscription, database, or API keys. GitHub Pages is available for public repositories on GitHub Free. You can add a custom domain later.
 
-## Recommended: publish the complete project
+## Current deployment
+
+- Website: [PersonaMem](https://lmgyuan.github.io/personamem-website/)
+- Repository: [lmgyuan/personamem-website](https://github.com/lmgyuan/personamem-website)
+- Deployment status: [GitHub Actions](https://github.com/lmgyuan/personamem-website/actions)
+
+GitHub Pages is enabled using the included Actions workflow. To update the site, edit the project, run `node scripts/check.mjs`, commit your changes, and push to `main`.
+
+## Publishing another copy of the complete project
 
 1. On GitHub, create a public repository named `personamem-website` under your account or research organization. If you will use the terminal commands below, leave it empty (do not add an initial README).
 2. Upload or push **this project folder’s contents**, including the hidden `.github` folder, to its `main` branch. GitHub Desktop is a convenient alternative to the terminal.
@@ -56,4 +64,4 @@ After the default Pages URL works, buy or use a domain you control, add it under
 - [Use custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 - [Manage a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
-Instructions checked October 3, 2026. No remote repository, public deployment, domain purchase, or DNS change has been made by creating these files.
+Instructions checked October 3, 2026. The project uses the free default GitHub Pages address. No custom domain or DNS changes are required.
