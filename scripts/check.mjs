@@ -35,7 +35,7 @@ const ids=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
 for(const match of html.matchAll(/(?:src|href)="([^"]+)"/g)){
  const ref=match[1];
  if(ref.startsWith('#'))assert(ids.has(ref.slice(1)),`Broken section link ${ref}`);
- else if(!/^(https?:|data:)/.test(ref))assert(fs.existsSync(path.join(dist,ref)),`Missing asset ${ref}`);
+ else if(!/^(https?:|data:|mailto:)/.test(ref))assert(fs.existsSync(path.join(dist,ref)),`Missing asset ${ref}`);
 }
 new vm.Script(fs.readFileSync(path.join(dist,'app.js'),'utf8'));
 assert(fs.existsSync(path.join(dist,'.nojekyll')));
