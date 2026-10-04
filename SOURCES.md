@@ -39,3 +39,7 @@ The site’s layout, explanatory copy, and interactive examples were created for
 ## Updating scores
 
 Edit `dist/data.js`. Each result must identify its release, model, method, setting, metric values, and published source. For a new paper revision, update the linked source version, method note, and this file together. Keep evaluation settings distinct and use the published precision. Run `node scripts/check.mjs`, then inspect the relevant table in a browser. A new release or metric schema needs corresponding validation updates.
+
+## Download milestone
+
+The homepage celebrates 100,000+ combined Hugging Face downloads across PersonaMem, PersonaMem-v2, and PersonaMem-v3. This cumulative milestone was supplied by the project owner on October 3, 2026. It is a static milestone, not a live counter or a claim about monthly downloads.
